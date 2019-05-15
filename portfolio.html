@@ -2,220 +2,201 @@
 <html lang="en">
 
 <head>
+
+  <title>Portfolio</title>
+
+  <!-- metas -->
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Portfolio</title>
+
+  <!-- externals -->
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
 
-  <style>
-    .D_parallax {
-      background-attachment: fixed;
-      background-image: url("./image1.jpg");
-      /* min-height: 600px; */
-      background-position: center;
-      background-size: cover;
-    }
-  </style>
 </head>
 
 <body>
-  <!-- navigation section -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">Image Icon</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="container-fluid container">
+    <!-- navigation section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Image Icon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Work <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Blog
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-info my-2 my-md-0">Hire Me</button>
-      </form>
-    </div>
-  </nav>
-  <!-- intro section -->
-  <div class="container-fluid border-bottom">
-    <div class="row">
-      <div class="col-lg-7 pt-lg-3 pl-5 text-center text-md-left">
-        <div class="col pt-5">
-          <h1 class="display-4 font-weight-lighter">Hello I'm</h1>
-          <h1 class="display-4 font-weight-bold">Daniel Deepak</h1>
-          <h1 class="display-4 font-weight-lighter">UI&UX Designer</h1>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Work <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Blog
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <button class="btn btn-outline-info my-2 my-md-0">Hire Me</button>
+        </form>
+      </div>
+    </nav>
+    <!-- intro section -->
+    <div class="container-fluid border-bottom">
+      <div class="row border">
+        <div class="border col-lg-7 pt-lg-3 pl-5 my-auto text-center text-md-left">
+          <div class="border">
+            <h1 class=" border display-4 font-weight-lighter">Hello I'm</h1>
+            <h1 class=" border display-4 font-weight-bold">Daniel Deepak</h1>
+            <h1 class=" border display-4 font-weight-lighter">UI&UX Designer</h1>
+            <div class="border pb-4 pb-md-3">
+              <i class=" fab fa-facebook-square fa-2x " aria-hidden="true"></i>
+              <i class="fab fa-linkedin fa-2x " aria-hidden="true"></i>
+              <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+              <i class="fab fa-behance-square fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="border  mb-5  pl-4 pl-md-3 ">
+              <button type="button" class="btn btn-info btn-lg my-btn-pill col-9 col-md-3 mb-3 mb-md-0 mr-md-2 ">
+                Hire Me
+              </button>
+              <button type="button" class="btn btn-outline-info my-btn-pill btn-lg col-9 col-md-4">
+                See My Resume
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="pb-4 pb-md-3 col">
-          <i class="fab fa-facebook-square fa-2x " aria-hidden="true"></i>
-          <i class="fab fa-linkedin fa-2x " aria-hidden="true"></i>
-          <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
-          <i class="fab fa-behance-square fa-2x" aria-hidden="true"></i>
-        </div>
-        <div class="col mb-5 rol  pl-4 pl-md-3 ">
-          <button type="button" class="btn btn-info btn-lg col-9 col-md-3 mb-3 mb-md-0 mr-md-2 "
-            style="border-radius: 30px">
-            Hire Me
-          </button>
-          <button type="button" class="btn btn-outline-info  btn-lg col-9 col-md-4" style="border-radius: 30px">
-            See My Resume
-          </button>
+        <div class="col-lg-5 " style="padding:0px;">
+          <img class="img" src="./570x600.png" style="width:100%;" />
         </div>
       </div>
-      <div class="col-lg-5 " style="padding:0px;">
-        <img class="img" src="./570x600.png" style="width:100%;" />
-      </div>
     </div>
-  </div>
 
-  <!-- inner Nav section -->
-  <ul class="nav justify-content-center py-3">
-    <li class="nav-item">
-      <a class="nav-link active font-weight-bold text-secondary" href="#">All</a>
-    </li>
-    <li class="nav-item  ">
-      <a class="nav-link font-weight-bold text-secondary" href="#">App</a>
-    </li>
-    <li class="nav-item font-weight-bold text-secondary">
-      <a class="nav-link  text-secondary" href="#">Web</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link font-weight-bold text-secondary" href="#" tabindex="-1">Interaction</a>
-    </li>
-  </ul>
-  <!-- card section -->
+    <!-- inner Nav section -->
+    <ul class="nav justify-content-center py-3">
+      <li class="nav-item">
+        <a class="nav-link active font-weight-bold text-secondary" href="#">All</a>
+      </li>
+      <li class="nav-item  ">
+        <a class="nav-link font-weight-bold text-secondary" href="#">App</a>
+      </li>
+      <li class="nav-item font-weight-bold text-secondary">
+        <a class="nav-link  text-secondary" href="#">Web</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold text-secondary" href="#" tabindex="-1">Interaction</a>
+      </li>
+    </ul>
+    <!-- card section -->
 
-  <div class="contianer ">
-    <div class="row mt-3 justify-content-center" style="margin-bottom: 60px">
-      <div class="col-md-3 mx-3 w-75 ">
-        <div class="card border-top-0" style="border-radius: 10px">
-          <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
-          <div class="card-body pt-1 pb-2 px-3">
-            <p class="card-text my-0 ">Catogory</p>
-            <div class="row justify-content-between mx-auto ">
-              <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
-              <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+    <div class="contianer ">
+      <div class="row mt-3 justify-content-center" style="margin-bottom: 60px">
+        <div class="col-md-3 mx-3 w-75 ">
+          <div class="card border-top-0" style="border-radius: 10px">
+            <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
+            <div class="card-body pt-1 pb-2 px-3">
+              <p class="card-text my-0 ">Catogory</p>
+              <div class="row justify-content-between mx-auto ">
+                <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
+                <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mx-3 w-75">
+          <div class="card border-top-0" style="border-radius: 10px">
+            <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
+            <div class="card-body pt-1 pb-2 px-3">
+              <p class="card-text my-0">Catogory</p>
+              <div class="row justify-content-between mx-auto ">
+                <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
+                <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mx-3 w-75">
+          <div class="card border-top-0" style="border-radius: 10px">
+            <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
+            <div class="card-body pt-1 pb-2 px-3">
+              <p class="card-text my-0">Catogory</p>
+              <div class="row justify-content-between mx-auto ">
+                <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
+                <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-3 mx-3 w-75">
-        <div class="card border-top-0" style="border-radius: 10px">
-          <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
-          <div class="card-body pt-1 pb-2 px-3">
-            <p class="card-text my-0">Catogory</p>
-            <div class="row justify-content-between mx-auto ">
-              <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
-              <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+      <div class="row mt-3 justify-content-center" style="margin-bottom: 40px">
+        <div class="col-md-3 mx-3 w-75">
+          <div class="card border-top-0" style="border-radius: 10px">
+            <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
+            <div class="card-body pt-1 pb-2 px-3">
+              <p class="card-text my-0 ">Catogory</p>
+              <div class="row justify-content-between mx-auto ">
+                <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
+                <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3 mx-3 w-75">
-        <div class="card border-top-0" style="border-radius: 10px">
-          <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
-          <div class="card-body pt-1 pb-2 px-3">
-            <p class="card-text my-0">Catogory</p>
-            <div class="row justify-content-between mx-auto ">
-              <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
-              <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+        <div class="col-md-3 mx-3 w-75">
+          <div class="card border-top-0" style="border-radius: 10px">
+            <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
+            <div class="card-body pt-1 pb-2 px-3 ">
+              <p class="card-text my-0 ">Catogory</p>
+              <div class="row justify-content-between mx-auto ">
+                <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
+                <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row mt-3 justify-content-center" style="margin-bottom: 40px">
-      <div class="col-md-3 mx-3 w-75">
-        <div class="card border-top-0" style="border-radius: 10px">
-          <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
-          <div class="card-body pt-1 pb-2 px-3">
-            <p class="card-text my-0 ">Catogory</p>
-            <div class="row justify-content-between mx-auto ">
-              <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
-              <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mx-3 w-75">
-        <div class="card border-top-0" style="border-radius: 10px">
-          <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
-          <div class="card-body pt-1 pb-2 px-3 ">
-            <p class="card-text my-0 ">Catogory</p>
-            <div class="row justify-content-between mx-auto ">
-              <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
-              <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mx-3 w-75">
-        <div class="card border-top-0" style="border-radius: 10px">
-          <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
-          <div class="card-body pt-1 pb-2 px-3">
-            <p class="card-text my-0 ">Catogory</p>
-            <div class="row justify-content-between mx-auto ">
-              <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
-              <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+        <div class="col-md-3 mx-3 w-75">
+          <div class="card border-top-0" style="border-radius: 10px">
+            <img src="./250x250.png" class="card-img-top" style="border-radius:10px 10px 0 0" alt="..." />
+            <div class="card-body pt-1 pb-2 px-3">
+              <p class="card-text my-0 ">Catogory</p>
+              <div class="row justify-content-between mx-auto ">
+                <h5 class="card-title py-0 my-0 ">Project Title 1</h5>
+                <h6 class="card-title pt-1 pb-0 my-0 ">2019</h6>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- load more section -->
+    <!-- load more section -->
 
-  <div class="container text-center mb-5">
-    <button class=" btn btn-outline-dark font-weight-bold"
-      style="border: 2px solid rgb(77, 75, 75); border-radius: 20px">
-      Load More Work
-    </button>
-  </div>
-
-  <!-- section 6 -->
-  <div>
-    <div class="D_parallax p-5">
-      <div class="lead text-white m-5">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
-        aperiam laborum sint consequatur ex, suscipit rerum est molestiae
-        nostrum porro omnis! Optio soluta quos dolor quas nihil voluptas.
-        Quibusdam, alias!
-      </div>
-
+    <div class="container text-center mb-5">
+      <button class=" btn btn-outline-dark font-weight-bold"
+        style="border: 2px solid rgb(77, 75, 75); border-radius: 20px">
+        Load More Work
+      </button>
     </div>
-    <!-- 87.5 -->
-    <div class="p-5 text-center " style="position:relative; top:-105.5px; ">
-      <img src="./user.png" alt="..." class=" img-thumbnail" style="width:9%; border-radius: 50%; ">
-      <p class="font-weight-bold my-0 py-0">Daniel C.Deepak</p>
-      <p class="font-italic text-muted my-0 py-0">House Stark</p>
-      <p class="my-0 py-0">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-    </div>
-  </div>
-  <!-- about me section -->
 
-  <div class="container-fluid">
+    <!-- about me section -->
+
+    <!-- <div class="container-fluid"> -->
     <div class="row">
       <div class="col-12 col-lg-6 px-0">
         <img src="./500x500.png" class="card-img-top" alt="..." />
       </div>
-      <div class="col-12 col-lg-6   text-center text-sm-left pt-2">
+      <div class="col-12 col-lg-6 text-center text-sm-left pl-5 my-auto py-5 py-md-0">
         <h1 class="font-weight-bold  mb-0">About Me</h1>
         <h1 class="display-1 font-weight-bold text-secondary  pb-3">
           Who Am I
@@ -240,104 +221,127 @@
         </div>
       </div>
     </div>
-  </div>
-  `
-  <div class="text-center">
-    <h1 class="font-weight-bold mb-0">READ ME</h1>
-    <p class="text-muted">Sometimes I write something smart</p>
-    <div class="row justify-content-around mx-3 mx-md-0">
-      <div class="col-12 col-md-3 card border-0">
-        <img class="img-fluid " src="./350x350.png" alt="..">
-        <!-- <h5 class="card-header">Featured</h5> -->
-        <div class="card-body text-center text-md-left ml-0 pl-0">
-          <h4 class="card-title mb-1">WEBSITE INSPIRATION 1</h4>
-          <h6 class="card-title mb-1">CATEGORY</h6>
-          <p class="card-text text-md-justify mb-4 mb-md-2">Lorem ipsum dolor sit amet consehkdsfjl adipisicing elit.
-            Dolore earum
-            placeat, a iusto minima asperiores voluptate reru expedita, facere, possimus.</p>
-          <a href="#" class="btn btn-primary" style="border-radius: 40px;">Go somewhere</a>
+    <!-- </div> -->
+
+    <!-- parallex part -->
+
+    <div>
+      <div class="D_parallax p-5">
+        <div class="lead font-italic text-white m-5 px-5">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
+          aperiam laborum sint consequatur ex, suscipit rerum est molestiae
+          nostrum porro omnis! Optio soluta quos dolor quas nihil voluptas.
+          Quibusdam, alias!
         </div>
+
       </div>
-      <div class="col-12 col-md-3 card border-0">
-        <img class="img-fluid " src="./350x350.png" alt="..">
-        <!-- <h5 class="card-header">Featured</h5> -->
-        <div class="card-body text-center text-md-left ml-0 pl-0">
-          <h4 class="card-title mb-1">WEBSITE INSPIRATION 1</h4>
-          <h6 class="card-title mb-1">CATEGORY</h6>
-          <p class="card-text text-md-justify mb-4 mb-md-2">Lorem ipsum dolor sit amet consehkdsfjl adipisicing elit.
-            Dolore earum
-            placeat, a iusto minima asperiores voluptate reru expedita, facere, possimus.</p>
-          <a href="#" class="btn btn-primary" style="border-radius: 40px;">Go somewhere</a>
-        </div>
-      </div>
-      <div class="col-12 col-md-3 card border-0">
-        <img class="img-fluid " src="./350x350.png" alt="..">
-        <!-- <h5 class="card-header">Featured</h5> -->
-        <div class="card-body text-center text-md-left ml-0 pl-0">
-          <h4 class="card-title mb-1">WEBSITE INSPIRATION 1</h4>
-          <h6 class="card-title mb-1">CATEGORY</h6>
-          <p class="card-text text-md-justify mb-4 mb-md-2">Lorem ipsum dolor sit amet consehkdsfjl adipisicing elit.
-            Dolore earum
-            placeat, a iusto minima asperiores voluptate reru expedita, facere, possimus.</p>
-          <a href="#" class="btn btn-primary" style="border-radius: 40px;">Go somewhere</a>
-        </div>
+      <div class="p-5 text-center " style="position:relative; top:-105.5px; ">
+        <img src="./user.png" alt="..." class=" img-thumbnail" style="width:9%; border-radius: 50%; ">
+        <p class="font-weight-bold my-0 py-0">Daniel C Deepak</p>
+        <p class="font-italic text-muted my-0 py-0">House Stark</p>
+        <p class="my-0 py-0">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
       </div>
     </div>
-  </div>
-  <a href="#" class="d-block text-center text-muted text-md-right pr-md-5 mt-2 mb-5"><u>see more posts...</u></a>
 
-  <!-- footer -->
-
-  <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+    <div class="text-center">
+      <h1 class="font-weight-bold mb-0">READ ME</h1>
+      <p class="text-muted">Sometimes I write something smart</p>
+      <div class="row justify-content-around mx-3 mx-md-0">
+        <div class="col-12 col-md-3 card border-0">
+          <img class="img-fluid " src="./350x350.png" alt="..">
+          <!-- <h5 class="card-header">Featured</h5> -->
+          <div class="card-body text-center text-md-left ml-0 pl-0">
+            <h4 class="card-title mb-1">WEBSITE INSPIRATION 1</h4>
+            <h6 class="card-title mb-1">CATEGORY</h6>
+            <p class="card-text text-md-justify mb-4 mb-md-2">Lorem ipsum dolor sit amet consehkdsfjl adipisicing elit.
+              Dolore earum
+              placeat, a iusto minima asperiores voluptate reru expedita, facere, possimus.</p>
+            <a href="#" class="btn btn-primary" style="border-radius: 40px;">Go somewhere</a>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+        </div>
+        <div class="col-12 col-md-3 card border-0">
+          <img class="img-fluid " src="./350x350.png" alt="..">
+          <!-- <h5 class="card-header">Featured</h5> -->
+          <div class="card-body text-center text-md-left ml-0 pl-0">
+            <h4 class="card-title mb-1">WEBSITE INSPIRATION 1</h4>
+            <h6 class="card-title mb-1">CATEGORY</h6>
+            <p class="card-text text-md-justify mb-4 mb-md-2">Lorem ipsum dolor sit amet consehkdsfjl adipisicing elit.
+              Dolore earum
+              placeat, a iusto minima asperiores voluptate reru expedita, facere, possimus.</p>
+            <a href="#" class="btn btn-primary" style="border-radius: 40px;">Go somewhere</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 card border-0">
+          <img class="img-fluid " src="./350x350.png" alt="..">
+          <!-- <h5 class="card-header">Featured</h5> -->
+          <div class="card-body text-center text-md-left ml-0 pl-0">
+            <h4 class="card-title mb-1">WEBSITE INSPIRATION 1</h4>
+            <h6 class="card-title mb-1">CATEGORY</h6>
+            <p class="card-text text-md-justify mb-4 mb-md-2">Lorem ipsum dolor sit amet consehkdsfjl adipisicing elit.
+              Dolore earum
+              placeat, a iusto minima asperiores voluptate reru expedita, facere, possimus.</p>
+            <a href="#" class="btn btn-primary" style="border-radius: 40px;">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer>
-  <hr>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
-  <div>slkfdj</div>
+    <a href="#" class="d-block text-center text-muted text-md-right pr-md-5 mt-2 mb-5"><u>see more posts...</u></a>
+
+
+    <!-- footer -->
+
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </footer>
+    <hr>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+    <div>slkfdj</div>
+
+  </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
