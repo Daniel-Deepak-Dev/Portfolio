@@ -1,0 +1,11 @@
+.D_parallax {
+    background-attachment: fixed;
+    background-image: url("./image3.jpg");
+    /* min-height: 600px; */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .my-btn-pill{
+    border-radius: 30px;
+  }
