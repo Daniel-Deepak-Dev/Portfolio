@@ -2,9 +2,11 @@
 1. Why `<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">` ? **got answers**
 1. Read about `aria-` attribute. used in [alerts-bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/#dismissing) **got answers**
 1. Why I couldn't `.rounded-pill` the buttons in Bootstrap?
+1. How to strech the text content to full width using bootstrap?
 
 
 ### Todos:
+1. `Container-fluid` on small screens and `.container` on big screens
 1. Make nav fixed
 1. Study selectors
 1. Avoid repeated styles by using `classes`

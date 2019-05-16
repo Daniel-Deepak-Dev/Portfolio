@@ -9,3 +9,22 @@
   .my-btn-pill{
     border-radius: 30px;
   }
+  .fa-facebook-square{
+    color:#3b5998
+  }
+  .fa-linkedin{
+  color: #3f729b
+  }
+  .fa-twitter-square{
+  color: #55acee
+  }
+  .fa-behance-square{
+      color: #1769ff
+  }
+  .make-white{
+    color:white;
+  }
+
+  .zero-padding{
+    padding:0px;
+  }
