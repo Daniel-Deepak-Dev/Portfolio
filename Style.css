@@ -1,6 +1,6 @@
 .D_parallax {
     background-attachment: fixed;
-    background-image: url("./image3.jpg");
+    background-image: url("./assets/parallex.jpg");
     /* min-height: 600px; */
     background-position: center;
     background-size: cover;
@@ -24,7 +24,37 @@
   .make-white{
     color:white;
   }
+.my-card-radius{
+  border-radius: 10px
+}
+.my-card-img-border-radius{
+  border-radius:10px 10px 0 0
+}
 
-  .zero-padding{
-    padding:0px;
-  }
+.btn-extra-dark-border{
+  border: 2px solid rgb(77, 75, 75);
+}
+.my-user-image-bordering{
+  width:9%; border-radius: 50%;
+}
+
+/* for brand icon */
+.brand-height{
+  height:70px
+}
+.brand-text-height{
+  height:40px;top:-5px;
+}
+.brand-name-text{
+  font-size:20px;
+}
+.brand-name-text-1{
+  top:10%;
+}
+.brand-name-text-2{
+  top:55%;
+}
+.brand-subtitle{
+  font-size:12px;
+  top:115%;
+}
